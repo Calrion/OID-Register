@@ -1,0 +1,99 @@
+/*
+ * Stylesheet for OID Register
+ * Written by Greg Waterhouse.
+ * Created 2013-06-02.
+ *
+ */
+
+body {
+  margin: auto 2em;
+  font-family: "PT Sans", sans-serif;
+  font-size: 90%;
+  line-height: 1.4;
+}
+
+h1 {
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  font-family: "Chaparral Pro", serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: #004363;
+}
+
+p {
+  margin: 0;
+  max-width: 44em;
+}
+
+/* link visited focus hover active */
+a, 
+a:link, 
+a:focus, 
+a:hover, 
+a:active {
+  border-bottom: 0.1em solid #999;
+  font-weight: 600;
+  text-decoration: none;
+  color: #069;
+}
+
+a:visited {
+  color: #004363;
+}
+
+code {
+  background-color: #eee;
+  border: 0.1em solid #aaa;
+  border-radius: 0.4em;
+  margin: 0.3em;
+  padding: 0.1em 0.3em;
+}
+
+dl.assignment {
+  border-left: 0.1em solid #069;
+  padding-left: 0.3em;
+}
+
+dl.assignment > dt > span.assignment {
+  padding: 0.2em 0.4em;
+  background-color: #ddd;
+  border: 0.1em solid #999;
+  border-radius: 0.5em;
+  font-family: Consolas, Menlo, monospace;
+  font-size: 0.8em;
+}
+
+dl.meta {margin: 0.2em 0 0.5em 0}
+
+dl.meta dt {
+  float: left;
+  margin-right: 0.5em;
+  font-weight: 700;
+}
+
+dt.assignment + dd {
+  margin-left: 1.5em;
+  margin-bottom: 2em;
+}
+
+hr {display:none}
+
+footer.page {
+  margin-top: 6em;
+  margin-bottom: 2em;
+  font-size: 0.8em;
+}
+
+footer.page a, 
+footer.page a:link, 
+footer.page a:focus, 
+footer.page a:hover, 
+footer.page a:active {
+  color: #004363;
+  font-weight: inherit;
+}
+
+footer.page a:visited {
+  color: #000;
+}
