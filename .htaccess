@@ -1,0 +1,8 @@
+# Options +Indexes
+# IndexOptions +FancyIndexing FoldersFirst HTMLTable XHTML SuppressHTMLPreamble SuppressColumnSorting DescriptionWidth=*
+# IndexIgnore favicon.* .. header.html
+# HeaderName header.html
+
+AddDescription "Install the root certificate on an iOS device" ios-install
+AddDescription "Rebecca and Greg CA root certificate" rgweb-ca.cer
+AddDescription "Rebecca and Greg CA certificate revocation list (CRL)" rgweb-ca.crl
