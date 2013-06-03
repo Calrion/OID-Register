@@ -26,6 +26,11 @@ p {
   max-width: 44em;
 }
 
+section.register {
+  margin-top: 2em;
+  border-left: 0.1em solid #069;
+}
+
 /* link visited focus hover active */
 a, 
 a:link, 
@@ -48,6 +53,9 @@ code {
   border-radius: 0.4em;
   margin: 0.3em;
   padding: 0.1em 0.3em;
+  font-family: Consolas, Menlo, monospace;
+  font-size: 0.8em;
+  color: #000;
 }
 
 dl.assignment {
@@ -55,13 +63,19 @@ dl.assignment {
   padding-left: 0.3em;
 }
 
-dl.assignment > dt > span.assignment {
+section.register > dl.assignment {
+    margin-left: 1.5em;
+}
+
+dl.assignment > dt > span.assignment,
+section.register > p > code.root {
   padding: 0.2em 0.4em;
-  background-color: #ddd;
-  border: 0.1em solid #999;
+  background-color: #eee;
+  border: 0.1em solid #aaa;
   border-radius: 0.5em;
   font-family: Consolas, Menlo, monospace;
   font-size: 0.8em;
+  color: #000;
 }
 
 dl.meta {margin: 0.2em 0 0.5em 0}
@@ -72,9 +86,13 @@ dl.meta dt {
   font-weight: 700;
 }
 
-dt.assignment + dd {
+dl.assignment > dt + dd {
   margin-left: 1.5em;
   margin-bottom: 2em;
+}
+
+dl.meta > dt + dd.arc {
+  max-width: 35em;
 }
 
 hr {display:none}
