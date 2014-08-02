@@ -40,11 +40,41 @@
 <article class="primary">
   <header><h1>OID Register</h1></header>
   <section class="body">
-    <p>On 14th May, 2013, IANA assigned the OID arc <code>1.3.6.1.4.1.41753</code> to me under its <a href="http://pen.iana.org/pen/PenApplication.page">Private Enterprise Number</a> scheme. This website provides details on assignments made under the above arc, noting that as not all assignments may be appropriate for public disclosure and that the list here is therefore not&nbsp;definitive.</p>
+    <p>On 14th May, 2013, IANA assigned the OID arc <code class="arc">1.3.6.1.4.1.41753</code> to me under its <a href="http://pen.iana.org/pen/PenApplication.page">Private Enterprise Number</a> scheme. This website provides details on assignments made under the above arc, noting that as not all assignments may be appropriate for public disclosure and that the list here is therefore not&nbsp;definitive.</p>
   </section>
   <section class="register">
     <p><code class="root arc"><span class="identifier">iso</span>(<strong class="oid">1</strong>) <span class="identifier">identified-organization</span>(<strong class="oid">3</strong>) <span class="identifier">dod</span>(<strong class="oid">6</strong>) <span class="identifier">internet</span>(<strong class="oid">1</strong>) <span class="identifier">private</span>(<strong class="oid">4</strong>) <span class="identifier">enterprise</span>(<strong class="oid">1</strong>) <strong class="oid">41753</strong></code></p>
     <dl class="assignment">
+
+      <dt><span class="assignment">
+        <span class="identifier">personal</span> 
+        (<strong class="oid">1</strong>)
+      </span></dt>
+      <dd>
+        <dl class="meta">
+          <dt>Assignment Date:</dt>
+          <dd class="date-assigned">2013-06-01</dd>
+        </dl>
+        <p class="description">This arc is reserved for my future personal use.</p>
+        <dl class="assignment">
+        
+          <dt><span class="assignment">
+            <span class="identifier">pcb</span> 
+            (<strong class="oid">1</strong>)
+          </span></dt>
+          <dd>
+            <dl class="meta">
+              <dt>Assignment Date:</dt>
+              <dd class="date-assigned">2014-08-02</dd>
+            </dl>
+            <p class="description">Printed circuit board identifiers. Each board includes a unique identifier, production date code, and references the URL <a href="http://calr.co/b/">http://calr.co/b/</a>.</p>
+            <p class="description">There are exactly three arcs below this one: design, version, and revision. Design is the numerical design identifier as specified in the PCB Identifiers spreadsheet; version is the numerical version of that design; revision is the revision of that version of that design, converted to a number (A=1, B=2, ..., Z=26). These arcs do not have named equivalents. E.g. the OID <code class="arc">1.3.6.1.4.1.41753.1.1.42.2.3</code> would represent board 
+			design 42, version 2, revision 'C'; this would be marked on 
+			the PCB as <code>B4202C</code>.</p>
+          </dd>
+
+        </dl>
+      </dd>
 
       <dt><span class="assignment">
         <span class="identifier">rebecca-and-greg</span> 

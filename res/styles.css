@@ -91,6 +91,14 @@ dl.assignment > dt + dd {
   margin-bottom: 2em;
 }
 
+dl.assignment > dt + dd > p.description {
+  margin-bottom: 1em;
+}
+
+dl.assignment > dt + dd > p.description:last-child {
+  margin-bottom: 0;
+}
+
 dl.meta > dt + dd.arc {
   max-width: 35em;
 }
